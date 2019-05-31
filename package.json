@@ -1,0 +1,22 @@
+{
+  "name": "microservice-users-nodejs",
+  "version": "1.0.0",
+  "description": "Microservice for users using AWS Cognito",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-2.amazonaws.com/v1/repos/microservice-users-nodejs"
+  },
+  "author": "Nicholas Barger",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.0.3"
+  },
+  "devDependencies": {
+    "serverless-domain-manager": "^2.6.6",
+    "serverless-offline": "^3.31.2"
+  }
+}
